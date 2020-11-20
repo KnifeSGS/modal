@@ -65,8 +65,13 @@
     100% {opacity:1;}
 }
 
+.modal--up {
+    display: flex;
+}
+
 .modal--hide {
-    animation: close 0.5s;
+    display: none;
+    transition: .3s;
   }
   
 @keyframes close {
